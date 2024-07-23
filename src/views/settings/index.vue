@@ -2,9 +2,9 @@
   <section class="flex-grow bg-[#e2e2e2]">
     <div class="px-20 py-6">
       <div class="font-bold text-3xl">設定</div>
-      <div class="flex justify-between gap-8">
+      <div class="sm:flex justify-between gap-8">
         <div
-          class="border-2 border-black rounded p-4 relative mt-3 w-1/2 max-h-20"
+          class="border-2 border-black rounded p-4 relative mt-3 sm:w-1/2 max-h-20"
         >
           <label
             class="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-[#e2e2e2] px-2 text-gray-700 font-semibold"
@@ -28,7 +28,10 @@
           </div>
         </div>
         <!-- 地點卡片 -->
-        <div v-loading="loading" class="flex-grow gap-3 flex-col flex">
+        <div
+          v-loading="loading"
+          class="flex-grow gap-3 flex-col flex mt-4 sm:mt-0"
+        >
           <LocationCard
             v-for="data in countryStore.countryData"
             :key="data.id"
