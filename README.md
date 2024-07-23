@@ -1,29 +1,5 @@
-# weather-view
-
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+weather view
+vue 3 + vite + pinia
+*nijia weather api
+<img width="508" alt="image" src="https://github.com/user-attachments/assets/7cf59d58-c24b-41c6-83e1-53bd84277b51">
+<img width="508" alt="image" src="https://github.com/user-attachments/assets/cecc491f-47fc-47fe-8090-23ca91b37613">
